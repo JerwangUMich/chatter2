@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private void refreshTimeLine() {
         chattAdapter.clear();
         RequestQueue queue = Volley.newRequestQueue(this);
-        final String url = "http://3.16.22.144/getchatts/";
+        final String url = "http://167.172.228.59/getchatts/";
         // Do HTTP GET request and add to list here
         // (copy code from next slide)
         JsonObjectRequest getRequest = new JsonObjectRequest(url, null,
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     private void refreshTimeline() {
         chattAdapter.clear();
         RequestQueue queue = Volley.newRequestQueue(this);
-        final String url = "http://3.16.22.144/getchatts/";
+        final String url = "http://167.172.228.59/getchatts/";
         // Do HTTP GET request and add to list here
         // (copy code from next slide)
         JsonObjectRequest getRequest = new JsonObjectRequest(url, null,
